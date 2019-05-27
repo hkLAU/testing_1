@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Stations</name>
+<Style id="greenWithLabel_tiny">
+<IconStyle>
+<scale>.3</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/greenDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+</Style>
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+<Style id="greenWithLabel_med">
+<IconStyle>
+<scale>.5</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/greenDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+</Style>
+<Style id="greenWithLabel_large">
+<IconStyle>
+<scale>.8</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/greenDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+</Style>
+<Style id="redNoLabel_tiny">
+<IconStyle>
+<scale>.2</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/redDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+</Style>
+<Style id="redNoLabel_med">
+<IconStyle>
+<scale>.4</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/redDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+</Style>
+<Style id="redNoLabel_large">
+<IconStyle>
+<scale>.7</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/redDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+</Style>
+<StyleMap id="default_tiny">
+<Pair>
+<key>normal</key>
+<styleUrl>#redNoLabel_tiny</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#greenWithLabel_tiny</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="default_med">
+<Pair>
+<key>normal</key>
+<styleUrl>#redNoLabel_med</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#greenWithLabel_med</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="default_large">
+<Pair>
+<key>normal</key>
+<styleUrl>#redNoLabel_large</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#greenWithLabel_large</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+<name>TOULOUSE-BLAGNAC</name>
+<styleUrl>#default_large</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/FR000007630.png' />
+</description>
+<Point>
+<coordinates>1.38,43.619999999999997</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>FR000007630</value>
+</Data>
+<Data name="importance">
+<value>3</value>
+</Data>
+<Data name="lat">
+<value>43.62</value>
+</Data>
+<Data name="lon">
+<value>1.38</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>COROZAL SUBSTN</name>
+<styleUrl>#default_large</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/RQC00662934.png' />
+</description>
+<Point>
+<coordinates>-66.359200000000001,18.326699999999999</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>RQC00662934</value>
+</Data>
+<Data name="importance">
+<value>4</value>
+</Data>
+<Data name="lat">
+<value>18.3267</value>
+</Data>
+<Data name="lon">
+<value>-66.3592</value>
+</Data>
+</ExtendedData>
+</Placemark>
+</Document>
+</kml>
