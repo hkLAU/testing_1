@@ -134,8 +134,8 @@
 <Placemark>
 <name>COROZAL SUBSTN</name>
 <styleUrl>#default_large</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/RQC00662934.png' />
+<description> HIIIIIIII
+<img width="240" src='https://raw.githubusercontent.com/hkLAU/testing_1/master/RQC00662934.png' />
 </description>
 <Point>
 <coordinates>-66.359200000000001,18.326699999999999</coordinates>
@@ -224,6 +224,40 @@
 </Data>
 <Data name="lon">
 <value>-105.88</value>
+</Data>
+<ExtendedData>
+<Data name="id">
+<value>(5 rows)</value>
+</Data>
+<Data name="importance">
+<value></value>
+</Data>
+<Data name="lat">
+<value></value>
+</Data>
+<Data name="lon">
+<value></value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name></name>
+<styleUrl>#default_tiny</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/.png' />
+</description>
+<ExtendedData>
+<Data name="id">
+<value></value>
+</Data>
+<Data name="importance">
+<value></value>
+</Data>
+<Data name="lat">
+<value></value>
+</Data>
+<Data name="lon">
+<value></value>
 </Data>
 </ExtendedData>
 </Placemark>
