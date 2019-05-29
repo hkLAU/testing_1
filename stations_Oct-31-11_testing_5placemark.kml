@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Stations</name>
+<Style id="greenWithLabel_tiny">
+<IconStyle>
+<scale>.3</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/greenDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+</Style>
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+<Style id="greenWithLabel_med">
+<IconStyle>
+<scale>.5</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/greenDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+</Style>
+<Style id="greenWithLabel_large">
+<IconStyle>
+<scale>.8</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/greenDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+</Style>
+<Style id="redNoLabel_tiny">
+<IconStyle>
+<scale>.2</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/redDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+</Style>
+<Style id="redNoLabel_med">
+<IconStyle>
+<scale>.4</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/redDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+</Style>
+<Style id="redNoLabel_large">
+<IconStyle>
+<scale>.7</scale>
+<Icon>
+<href>http://arve.epfl.ch/images/redDot_15x15.gif</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0</scale>
+</LabelStyle>
+</Style>
+<StyleMap id="default_tiny">
+<Pair>
+<key>normal</key>
+<styleUrl>#redNoLabel_tiny</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#greenWithLabel_tiny</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="default_med">
+<Pair>
+<key>normal</key>
+<styleUrl>#redNoLabel_med</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#greenWithLabel_med</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="default_large">
+<Pair>
+<key>normal</key>
+<styleUrl>#redNoLabel_large</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#greenWithLabel_large</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+<name>TOULOUSE-BLAGNAC</name>
+<styleUrl>#default_large</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/FR000007630.png' />
+</description>
+<Point>
+<coordinates>1.38,43.619999999999997</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>FR000007630</value>
+</Data>
+<Data name="importance">
+<value>3</value>
+</Data>
+<Data name="lat">
+<value>43.62</value>
+</Data>
+<Data name="lon">
+<value>1.38</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>COROZAL SUBSTN</name>
+<styleUrl>#default_large</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/RQC00662934.png' />
+</description>
+<Point>
+<coordinates>-66.359200000000001,18.326699999999999</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>RQC00662934</value>
+</Data>
+<Data name="importance">
+<value>4</value>
+</Data>
+<Data name="lat">
+<value>18.3267</value>
+</Data>
+<Data name="lon">
+<value>-66.3592</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>EDSON A</name>
+<styleUrl>#default_med</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/CA003062244.png' />
+</description>
+<Point>
+<coordinates>-116.469999999999999,53.579999999999998</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>CA003062244</value>
+</Data>
+<Data name="importance">
+<value>6</value>
+</Data>
+<Data name="lat">
+<value>53.58</value>
+</Data>
+<Data name="lon">
+<value>-116.47</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>SPIRIT RIVER RS</name>
+<styleUrl>#default_med</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/CA003076071.png' />
+</description>
+<Point>
+<coordinates>-118.829999999999998,55.780000000000001</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>CA003076071</value>
+</Data>
+<Data name="importance">
+<value>6</value>
+</Data>
+<Data name="lat">
+<value>55.78</value>
+</Data>
+<Data name="lon">
+<value>-118.83</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>COURVAL</name>
+<styleUrl>#default_med</styleUrl>
+<description>
+<img width="240" src='http://arve.epfl.ch/pub/CA004021851.png' />
+</description>
+<Point>
+<coordinates>-105.879999999999995,50.18</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>CA004021851</value>
+</Data>
+<Data name="importance">
+<value>6</value>
+</Data>
+<Data name="lat">
+<value>50.18</value>
+</Data>
+<Data name="lon">
+<value>-105.88</value>
+</Data>
+</ExtendedData>
+</Placemark>
+</Document>
+</kml>
