@@ -126,6 +126,9 @@
 <Data name="lon">
 <value>-66.3592</value>
 </Data>
+<Data name="photo">
+<value>https://raw.githubusercontent.com/hkLAU/testing_1/master/RQC00662934.png</value>
+</Data>
 </ExtendedData>
 </Placemark>
 </Document>
