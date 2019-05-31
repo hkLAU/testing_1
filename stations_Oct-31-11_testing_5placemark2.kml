@@ -110,9 +110,6 @@
 <Placemark>
 <name>TOULOUSE-BLAGNAC</name>
 <styleUrl>#default_large</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/FR000007630.png' />
-</description>
 <Point>
 <coordinates>1.38,43.619999999999997</coordinates>
 </Point>
@@ -129,6 +126,9 @@
 <Data name="lon">
 <value>1.38</value>
 </Data>
+<Link>
+<href>https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png</href>
+</Link>
 </ExtendedData>
 </Placemark>
 <Placemark>
@@ -138,7 +138,7 @@
 <Data name='gx_media_links'>
 <value>https://raw.githubusercontent.com/hkLAU/testing_1/master/RQC00662934.png</value>
 </data>
-</dExtendedData>
+</ExtendedData>
 <Point>
 <coordinates>-66.359200000000001,18.326699999999999</coordinates>
 </Point>
@@ -155,14 +155,14 @@
 <Data name="lon">
 <value>-66.3592</value>
 </Data>
+<Link>
+<href>https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png</href>
+</Link>
 </ExtendedData>
 </Placemark>
 <Placemark>
 <name>EDSON A</name>
 <styleUrl>#default_med</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/CA003062244.png' />
-</description>
 <Point>
 <coordinates>-116.469999999999999,53.579999999999998</coordinates>
 </Point>
@@ -179,14 +179,14 @@
 <Data name="lon">
 <value>-116.47</value>
 </Data>
+<Link>
+<href>https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png</href>
+</Link>
 </ExtendedData>
 </Placemark>
 <Placemark>
 <name>SPIRIT RIVER RS</name>
 <styleUrl>#default_med</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/CA003076071.png' />
-</description>
 <Point>
 <coordinates>-118.829999999999998,55.780000000000001</coordinates>
 </Point>
@@ -203,14 +203,14 @@
 <Data name="lon">
 <value>-118.83</value>
 </Data>
+<Link>
+<href>https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png</href>
+</Link>
 </ExtendedData>
 </Placemark>
 <Placemark>
 <name>COURVAL</name>
 <styleUrl>#default_med</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/CA004021851.png' />
-</description>
 <Point>
 <coordinates>-105.879999999999995,50.18</coordinates>
 </Point>
@@ -240,14 +240,14 @@
 <Data name="lon">
 <value></value>
 </Data>
+<Link>
+<href>https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png</href>
+</Link>
 </ExtendedData>
 </Placemark>
 <Placemark>
 <name></name>
 <styleUrl>#default_tiny</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/.png' />
-</description>
 <ExtendedData>
 <Data name="id">
 <value></value>
@@ -261,6 +261,9 @@
 <Data name="lon">
 <value></value>
 </Data>
+<Link>
+<href>https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png</href>
+</Link>
 </ExtendedData>
 </Placemark>
 </Document>
