@@ -110,9 +110,6 @@
 <Placemark>
 <name>TOULOUSE-BLAGNAC</name>
 <styleUrl>#default_large</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/FR000007630.png' />
-</description>
 <Point>
 <coordinates>1.38,43.619999999999997</coordinates>
 </Point>
@@ -134,9 +131,6 @@
 <Placemark>
 <name>COROZAL SUBSTN</name>
 <styleUrl>#default_large</styleUrl>
-<description> 
-<img width="240" src='http://arve.epfl.ch/pub/RQC00662934.png' />
-</description>
 <Point>
 <coordinates>-66.359200000000001,18.326699999999999</coordinates>
 </Point>
@@ -158,9 +152,6 @@
 <Placemark>
 <name>EDSON A</name>
 <styleUrl>#default_med</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/CA003062244.png' />
-</description>
 <Point>
 <coordinates>-116.469999999999999,53.579999999999998</coordinates>
 </Point>
@@ -182,9 +173,6 @@
 <Placemark>
 <name>SPIRIT RIVER RS</name>
 <styleUrl>#default_med</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/CA003076071.png' />
-</description>
 <Point>
 <coordinates>-118.829999999999998,55.780000000000001</coordinates>
 </Point>
@@ -206,9 +194,6 @@
 <Placemark>
 <name>COURVAL</name>
 <styleUrl>#default_med</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/CA004021851.png' />
-</description>
 <Point>
 <coordinates>-105.879999999999995,50.18</coordinates>
 </Point>
