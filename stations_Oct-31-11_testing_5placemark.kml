@@ -225,40 +225,6 @@
 <Data name="lon">
 <value>-105.88</value>
 </Data>
-<ExtendedData>
-<Data name="id">
-<value>(5 rows)</value>
-</Data>
-<Data name="importance">
-<value></value>
-</Data>
-<Data name="lat">
-<value></value>
-</Data>
-<Data name="lon">
-<value></value>
-</Data>
-</ExtendedData>
-</Placemark>
-<Placemark>
-<name></name>
-<styleUrl>#default_tiny</styleUrl>
-<description>
-<img width="240" src='http://arve.epfl.ch/pub/.png' />
-</description>
-<ExtendedData>
-<Data name="id">
-<value></value>
-</Data>
-<Data name="importance">
-<value></value>
-</Data>
-<Data name="lat">
-<value></value>
-</Data>
-<Data name="lon">
-<value></value>
-</Data>
 </ExtendedData>
 </Placemark>
 </Document>
