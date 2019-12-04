@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Stations</name>
+<Style id="west_campus_style">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>$[photo]</text>
+      </BalloonStyle>
+    </Style>
+<Placemark>
+<name>TOULOUSE-BLAGNAC</name>
+<styleUrl>#default_large</styleUrl>
+<Point>
+<coordinates>1.38,43.619999999999997</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>FR000007630</value>
+</Data>
+<Data name="importance">
+<value>3</value>
+</Data>
+<Data name="lat">
+<value>43.62</value>
+</Data>
+<Data name="lon">
+<value>1.38</value>
+</Data>
+ <Data name="photo">
+        <value><![CDATA[<iframe width="640" height="360"
+          src="https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png" frameborder="0"
+          allowfullscreen></iframe><br><br>]]></value>
+      </Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>COROZAL SUBSTN</name>
+<styleUrl>#default_large</styleUrl>
+<Point>
+<coordinates>-66.359200000000001,18.326699999999999</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>RQC00662934</value>
+</Data>
+<Data name="importance">
+<value>4</value>
+</Data>
+<Data name="lat">
+<value>18.3267</value>
+</Data>
+<Data name="lon">
+<value>-66.3592</value>
+</Data>
+ <Data name="photo">
+        <value><![CDATA[<iframe width="640" height="360"
+          src="https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png" frameborder="0"
+          allowfullscreen></iframe><br><br>]]></value>
+      </Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>EDSON A</name>
+<styleUrl>#default_med</styleUrl>
+<description>
+<Link>
+<href>https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png</href>
+</Link>
+</description>
+<Point>
+<coordinates>-116.469999999999999,53.579999999999998</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>CA003062244</value>
+</Data>
+<Data name="importance">
+<value>6</value>
+</Data>
+<Data name="lat">
+<value>53.58</value>
+</Data>
+<Data name="lon">
+<value>-116.47</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>SPIRIT RIVER RS</name>
+<styleUrl>#default_med</styleUrl>
+<Point>
+<coordinates>-118.829999999999998,55.780000000000001</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>CA003076071</value>
+</Data>
+<Data name="importance">
+<value>6</value>
+</Data>
+<Data name="lat">
+<value>55.78</value>
+</Data>
+<Data name="lon">
+<value>-118.83</value>
+</Data>
+ <Data name="photo">
+        <value><![CDATA[<iframe width="640" height="360"
+          src="https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png" frameborder="0"
+          allowfullscreen></iframe><br><br>]]></value>
+      </Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name>COURVAL</name>
+<styleUrl>#default_med</styleUrl>
+<Point>
+<coordinates>-105.879999999999995,50.18</coordinates>
+</Point>
+<ExtendedData>
+<Data name="id">
+<value>CA004021851</value>
+</Data>
+<Data name="importance">
+<value>6</value>
+</Data>
+<Data name="lat">
+<value>50.18</value>
+</Data>
+<Data name="lon">
+<value>-105.88</value>
+</Data>
+<ExtendedData>
+<Data name="id">
+<value>(5 rows)</value>
+</Data>
+<Data name="importance">
+<value></value>
+</Data>
+<Data name="lat">
+<value></value>
+</Data>
+<Data name="lon">
+<value></value>
+</Data>
+ <Data name="photo">
+        <value><![CDATA[<iframe width="640" height="360"
+          src="https://github.com/hkLAU/testing_1/blob/master/RQC00662934.png" frameborder="0"
+          allowfullscreen></iframe><br><br>]]></value>
+      </Data>
+</ExtendedData>
+</Placemark>
+</Document>
+</kml>
