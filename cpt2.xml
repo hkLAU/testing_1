@@ -4,7 +4,7 @@
     <name>KmlFile</name>
     <Style id="default">
       <BalloonStyle>
-        <text>$[description] <BR> $[image]</text>
+        <text>$[description]$[image]</text>
       </BalloonStyle>
     </Style>
     <Placemark>
