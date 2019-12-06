@@ -4,7 +4,7 @@
     <name>KmlFile</name>
     <Style id="default">
       <BalloonStyle>
-        <text>$[name]$[image]</text>
+        <text><![CDATA[ $[name] <HR> $[image] <BR> ]]> </text>
       </BalloonStyle>
     </Style>
     <Placemark>
@@ -12,7 +12,7 @@
       <styleUrl>#default</styleUrl>
 		 <ExtendedData>
         	<Data name="image">
-          	<value><![CDATA[ <B>TOULOUSE-BLAGNAC </B> <img width="240"
+          	<value><![CDATA[<img width="240"
             src="https://raw.githubusercontent.com/hkLAU/testing_1/master/AE000041196.png" frameborder="0"
             allowfullscreen></img><br><B>id:FR000007630<br>importance:3<br>lat:43.62<br>lon:1.38</B><br>]]></value>
         </Data>
