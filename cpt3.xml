@@ -12,7 +12,7 @@
       <styleUrl>#default</styleUrl>
 		 <ExtendedData>
         	<Data name="image">
-          	<value><![CDATA[<img width="480" height="360"
+          	<value><![CDATA[<img width="240"
             src="https://raw.githubusercontent.com/hkLAU/testing_1/master/AE000041196.png" frameborder="0"
             allowfullscreen></img><br>id:123456<br>importance:4<br>]]></value>
         </Data>
