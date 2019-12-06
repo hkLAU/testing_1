@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KmlFile</name>
+    <Style id="default">
+      <BalloonStyle>
+        <text> $[image] </text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>TOULOUSE-BLAGNAC</name>
+      <styleUrl>#default</styleUrl>
+		 <ExtendedData>
+        	<Data name="image">
+          	<value><![CDATA[<img width="240"
+            src="https://raw.githubusercontent.com/hkLAU/testing_1/master/AE000041196.png" frameborder="0"
+            allowfullscreen></img><br><B>TOULOUSE-BLAGNAC<br>id:FR000007630<br>importance:3<br>lat:43.62<br>lon:1.38</B><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>1.38,43.619999999999997,0</coordinates>
+      </Point>
+    </Placemark>
+     <Placemark>
+      <name>COROZAL SUBSTN</name>
+      <styleUrl>#default</styleUrl>
+		 <ExtendedData>
+        	<Data name="image">
+          	<value><![CDATA[<img width="240"
+            src="https://raw.githubusercontent.com/hkLAU/testing_1/master/RQC00662934.png" frameborder="0"
+            allowfullscreen></img><br><B>COROZAL SUBSTN<br>id:RQC00662934<br>importance:3<br>lat:43.62<br>lon:1.38</B><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-66.359200000000001,18.326699999999999,0</coordinates>
+      </Point>
+    </Placemark>
+      </Document>
+</kml>
