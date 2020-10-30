@@ -13,7 +13,7 @@
 		 <ExtendedData>
         	<Data name="image">
           	<value><![CDATA[<img width="240"
-            src="http://localhost:8080/weatherstation_png/png/FR000007630.png" frameborder="0"
+            src="http://localhost:8080/www/weatherstation_png/png/FR000007630.png" frameborder="0"
             allowfullscreen></img><br><B>TOULOUSE-BLAGNAC<br>id:FR000007630<br>importance:3<br>lat:43.62<br>lon:1.38</B><br>]]></value>
         </Data>
       </ExtendedData>
