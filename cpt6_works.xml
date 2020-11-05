@@ -8,9 +8,6 @@
 	<Style id="red"><IconStyle><Icon>
 <href>http://labs.google.com/ridefinder/images/mm_20_red.png</href>
 </Icon></IconStyle></Style>
-      <BalloonStyle>
-        <text> $[image] </text>
-      </BalloonStyle>
     <Placemark>
       <name>TOULOUSE-BLAGNAC</name>
       <styleUrl>#green</styleUrl>
