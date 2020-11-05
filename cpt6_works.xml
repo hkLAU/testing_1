@@ -4,10 +4,16 @@
     <name>KmlFile</name>
     <Style id="green"><IconStyle><Icon>
 <href>http://labs.google.com/ridefinder/images/mm_20_green.png</href>
-</Icon></IconStyle></Style>
+</Icon></IconStyle>
+<BalloonStyle>
+        <text> $[image] </text>
+      </BalloonStyle></Style>
 	<Style id="red"><IconStyle><Icon>
 <href>http://labs.google.com/ridefinder/images/mm_20_red.png</href>
-</Icon></IconStyle></Style>
+</Icon></IconStyle>
+<BalloonStyle>
+        <text> $[image] </text>
+      </BalloonStyle></Style>
     <Placemark>
       <name>TOULOUSE-BLAGNAC</name>
       <styleUrl>#green</styleUrl>
