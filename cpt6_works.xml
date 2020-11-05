@@ -2,14 +2,18 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>KmlFile</name>
-    <Style id="default">
+    <Style id="green"><IconStyle><Icon>
+<href>http://labs.google.com/ridefinder/images/mm_20_green.png</href>
+</Icon></IconStyle></Style>
+	<Style id="red"><IconStyle><Icon>
+<href>http://labs.google.com/ridefinder/images/mm_20_red.png</href>
+</Icon></IconStyle></Style>
       <BalloonStyle>
         <text> $[image] </text>
       </BalloonStyle>
-    </Style>
     <Placemark>
       <name>TOULOUSE-BLAGNAC</name>
-      <styleUrl>#default</styleUrl>
+      <styleUrl>#green</styleUrl>
 		 <ExtendedData>
         	<Data name="image">
           	<value><![CDATA[<img width="240"
@@ -23,7 +27,7 @@
     </Placemark>
      <Placemark>
       <name>COROZAL SUBSTN</name>
-      <styleUrl>#default</styleUrl>
+      <styleUrl>#red</styleUrl>
 		 <ExtendedData>
         	<Data name="image">
           	<value><![CDATA[<img width="240"
