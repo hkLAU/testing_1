@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KmlFile</name>
+    <Style id="green"><IconStyle><Icon>
+<href>http://labs.google.com/ridefinder/images/mm_20_green.png</href>
+</Icon></IconStyle>
+ <BalloonStyle>
+        <text> $[image] </text>
+      </BalloonStyle></Style>
+	<Style id="red"><IconStyle><Icon>
+<href>http://labs.google.com/ridefinder/images/mm_20_red.png</href>
+</Icon></IconStyle>
+ <BalloonStyle>
+        <text> $[image] </text>
+      </BalloonStyle></Style>
+
+<Placemark><name>TOULOUSE-BLAGNAC</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/FR000007630.png" frameborder=0,allowfullscreen></img><br><br><B>TOULOUSE-BLAGNAC<br>id:FR000007630<br>importance:3<br>lat:43.62<br>lon:1.38</B><br>]]></value></Data></ExtendedData><Point><coordinates>1.38,43.619999999999997,0</coordinates></Point></Placemark>
+<Placemark><name>COROZAL SUBSTN</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/RQC00662934.png" frameborder=0,allowfullscreen></img><br><br><B>COROZAL SUBSTN<br>id:RQC00662934<br>importance:4<br>lat:18.3267<br>lon:-66.3592</B><br>]]></value></Data></ExtendedData><Point><coordinates>-66.359200000000001,18.326699999999999,0</coordinates></Point></Placemark>
+<Placemark><name>EDSON A</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA003062244.png" frameborder=0,allowfullscreen></img><br><br><B>EDSON A<br>id:CA003062244<br>importance:6<br>lat:53.58<br>lon:-116.47</B><br>]]></value></Data></ExtendedData><Point><coordinates>-116.469999999999999,53.579999999999998,0</coordinates></Point></Placemark>
+<Placemark><name>SPIRIT RIVER RS</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA003076071.png" frameborder=0,allowfullscreen></img><br><br><B>SPIRIT RIVER RS<br>id:CA003076071<br>importance:6<br>lat:55.78<br>lon:-118.83</B><br>]]></value></Data></ExtendedData><Point><coordinates>-118.829999999999998,55.780000000000001,0</coordinates></Point></Placemark>
+<Placemark><name>COURVAL</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA004021851.png" frameborder=0,allowfullscreen></img><br><br><B>COURVAL<br>id:CA004021851<br>importance:6<br>lat:50.18<br>lon:-105.88</B><br>]]></value></Data></ExtendedData><Point><coordinates>-105.879999999999995,50.18,0</coordinates></Point></Placemark>
+<Placemark><name>CYPRESS HILLS</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA004021996.png" frameborder=0,allowfullscreen></img><br><br><B>CYPRESS HILLS<br>id:CA004021996<br>importance:6<br>lat:49.67<br>lon:-109.47</B><br>]]></value></Data></ExtendedData><Point><coordinates>-109.469999999999999,49.670000000000002,0</coordinates></Point></Placemark>
+<Placemark><name>EASTLEIGH</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA004022328.png" frameborder=0,allowfullscreen></img><br><br><B>EASTLEIGH<br>id:CA004022328<br>importance:6<br>lat:50.28<br>lon:-106.18</B><br>]]></value></Data></ExtendedData><Point><coordinates>-106.180000000000007,50.280000000000001,0</coordinates></Point></Placemark>
+<Placemark><name>COLONSAY</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA004051636.png" frameborder=0,allowfullscreen></img><br><br><B>COLONSAY<br>id:CA004051636<br>importance:6<br>lat:51.93<br>lon:-105.77</B><br>]]></value></Data></ExtendedData><Point><coordinates>-105.769999999999996,51.93,0</coordinates></Point></Placemark>
+<Placemark><name>DINSMORE</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA004052210.png" frameborder=0,allowfullscreen></img><br><br><B>DINSMORE<br>id:CA004052210<br>importance:6<br>lat:51.32<br>lon:-107.33</B><br>]]></value></Data></ExtendedData><Point><coordinates>-107.329999999999998,51.32,0</coordinates></Point></Placemark>
+<Placemark><name>ELM CREEK</name><styleUrl>#green</styleUrl><ExtendedData><Data name="image"><value><![CDATA[<img width="240" src="https://climap.terraces.hku.hk/png/CA005020870.png" frameborder=0,allowfullscreen></img><br><br><B>ELM CREEK<br>id:CA005020870<br>importance:6<br>lat:49.72<br>lon:-98.02</B><br>]]></value></Data></ExtendedData><Point><coordinates>-98.019999999999996,49.719999999999999,0</coordinates></Point></Placemark>
+     </Document>
+</kml>
